@@ -46,75 +46,83 @@ a:hover {
 .work {
   width: 90%;
   text-align: center;
-  margin-top: 100px;
+  margin: 100px auto;
   
 }
 .works {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  gap: 30px 24px;
+  gap: 24px;
   margin-top: 64px;
   
 }
+.works img {
+  width: calc((100% - 48px) / 3);
+}
 .news {
   width: 90%;
-  margin-top: 100px;
+  margin: 100px auto ;
   text-align: center;
 }
 .newsitem table {
   padding-left: 24px;
   font-size: 14px;
+  width: 100%;
+  text-align: left;
 }
 .newsitem th {
   font-weight: normal;
-  padding-left: 64px;
   border-top: 1px solid #3333333f;
+  width: 100%;
+  padding: 16px;
 
 }
-.newsitem td {
+.newsitem {
   width: 90%;
-  padding: 16px 64px;
-  text-align: left;
-  border-top: 1px solid #3333333f;
-
+  margin: 0 auto;
 }
+.th {
+  border-bottom: 1px solid #3333333f;
+}
+
 .contact {
   width: 90%;
-  margin-top: 100px;
+  margin: 100px auto 0;
   text-align: center;
 }
 .contacts  {
   width: 90%;
   margin: 0 auto;
-  display: inline-block;
+  display: flex;
   text-align: center;
   padding-top: 50px;
 }
-.contacts input {
-  width: 70%;
-  height: 30px;
+label {
+  width: 20%;
+
 }
+input {
+  width: 80%;
+  height: 40px;
+}
+
 .contactsitem {
   width: 90%;
   margin: 0 auto;
-  display: inline-block;
+  display: flex;
   text-align: center;
   padding-top: 10px;
-}
-.contactsitem input {
-  width: 70%;
-  height: 30px;
 }
 .contactitem {
   width: 90%;
   margin: 0 auto;
-  display: inline-block;
+  display: flex;
   text-align: center;
   padding-top: 10px;
 }
 .contactitem textarea {
-  width: 70%;
+  width: 80%;
   height: 100px;
   
 }
@@ -126,7 +134,7 @@ a:hover {
   background: black;
   color: white;
   padding: 16px;
-  margin: 0 auto;
+  margin: 80px auto;
   border: 1px solid black;
 
 }
